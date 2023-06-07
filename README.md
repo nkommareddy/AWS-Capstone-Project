@@ -21,3 +21,13 @@ In this phase, I will start building the solution. My objective in this phase is
 #### Task 1: Creating a Virtual Network
 The first thing I did was create a Virtual Private Network (VPC) for XYZ University. By creating a VPC, XYZ University can establish a private and isolated network environment within the AWS Cloud. This separation provides an additional layer of security, effectively shielding the university's resources from the public internet .By utilizing a VPC, XYZ University gains the ability to scale its resources and accommodate future growth easily. It can provision and manage a wide range of AWS resources, including EC2 instances, load balancers, and auto-scaling groups, within the VPC. This scalability ensures that the university's network infrastructure can adapt to the changing needs and demands of its applications and user base.
 
+
+![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/eff17674-504c-42e1-81fc-3e41df46a92c)
+
+> *I determined I could eliminate the need for NAT Gateways and Private Subnets like I had initially anticipated using. By eliminating private subnets and the need for NAT gateways, ultimately making everything public facing, the network configuration becomes simpler, reducing complexity in the architecture. Doing this would also result in cost optimization as there are no additional expenses for NAT gateway usage.*
+
+#### Task 2: Creating a Virtual Machine
+
+
+
+

@@ -73,6 +73,8 @@ After a few minutes, one of my alarms in CloudWatch triggered indicating that th
 ![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/6e47892d-3c17-4e68-b896-fb94e0961cd2)
 A few minutes after that, another instance had been created! I could've left the script in Cloud9 keep running, but this was enough to prove that the load balancing and auto scaling worked. 
 
+## Final Architecture
+![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/6a8d6873-133a-4446-ad1e-0696084bc74b)
 
 
 

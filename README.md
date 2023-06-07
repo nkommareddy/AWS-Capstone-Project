@@ -36,5 +36,15 @@ I created an EC2 instance with the following settings. When creating the Amazon 
 
 I also created a security group that allowed traffic through the HTTP/S and SSH ports. This makes it so the user can actually access the website being hosted and so that the application could be load tested later on. 
 
+#### Task 3: Testing the deployment
+
+After my EC2 was configured, I was able to test whether or not the website application worked. After impatiently refreshing the IP address several times, I finally made it onto the landing page with minimal difficulty. 
+
+![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/9b8ceac1-07da-479f-996f-dc82aaee3684)
+
+From here I was able to perform the appropriate tasks such as viewing, adding, deleting, and modifying the student records.
+
+
+### Phase 3: Implementing High Availability and Scalability
 
 

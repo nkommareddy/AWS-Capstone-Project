@@ -28,6 +28,13 @@ The first thing I did was create a Virtual Private Network (VPC) for XYZ Univers
 
 #### Task 2: Creating a Virtual Machine
 
+![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/2b92765e-1c6c-4189-9a4f-cc26b8e11dca)
+> *For the majority of this project, I had created my original instance with the instance type "t2.micro". However, after underestimating the applicant pool, I realized a more appropriate instance size would be "t3.medium". This change will not be reflected in a number of the remaining images in this documentation but it is a change I would've made earlier had I realized.*
+
+
+I created an EC2 instance with the following settings. When creating the Amazon Machine Image (AMI), I chose to use Ubuntu as the platform type. This is primarily because of its compatibility with Bash. The user data being used in this project was coded in Bash so this decision seemed like a no brainer.  
+
+I also created a security group that allowed traffic through the HTTP/S and SSH ports. This makes it so the user can actually access the website being hosted and so that the application could be load tested later on. 
 
 
 

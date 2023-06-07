@@ -36,6 +36,9 @@ I created an EC2 instance with the following settings. When creating the Amazon 
 
 I also created a security group that allowed traffic through the HTTP/S and SSH ports. This makes it so the user can actually access the website being hosted and so that the application could be load tested later on. 
 
+> *I origninally included services like S3 and RDS to begin with. However, as I started to build out the infrastructure within the AWS platform, I began to realize a couple things. The decision to include or exclude specific AWS services like Amazon S3 and RDS depends on the specific requirements, scalability needs, and constraints of the web application at XYZ University.  If the web application does not require extensive file storage or the need for a dedicated object storage service, such as storing large media files, documents, or backups, then the use of Amazon S3 may not be necessary. Additionally, if the web application does not require a traditional relational database structure or complex queries, using Amazon RDS may not be essential. Therefore I decided that storing the data on an EC2 would be sufficient enough for the purposes of this project and decided not to include these surfaces.* 
+
+
 #### Task 3: Testing the deployment
 
 After my EC2 was configured, I was able to test whether or not the website application worked. After impatiently refreshing the IP address several times, I finally made it onto the landing page with minimal difficulty. 
@@ -75,6 +78,10 @@ A few minutes after that, another instance had been created! I could've left the
 
 ## Final Architecture
 ![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/6a8d6873-133a-4446-ad1e-0696084bc74b)
+
+> *Ultimately I did not end up needing services like RDS, WAF, and S3. However, I hope to come back to this project in the future and figure out ways to successfully implement those services as well.*
+
+But until then, I think it's safe to say this project was a success!
 
 
 

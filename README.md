@@ -47,4 +47,17 @@ From here I was able to perform the appropriate tasks such as viewing, adding, d
 
 ### Phase 3: Implementing High Availability and Scalability
 
+From here, I had to make sure that my application was highly available and scaleable. The two main features of AWS I used to implement this were Auto Scaling and the Application Load Balancer.  
+
+#### Task 1: Creating an Application Load Balancer and Configuring Auto Scaling
+
+This next step was quite straight forward. I set up my load balancer with the following settings: 
+![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/bb9ba0fa-b196-47bf-a747-c696f2ee334a)
+
+When setting up Auto Scaling, I created a tag (as shown below) signifying that a new instance had been created. I also set my auto scale settings to have a minimum of 2 scaled instances running with a maximum of 6 running at any given time. 
+
+![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/dac5f673-e6ac-417f-a3fb-da4cd057af19) ![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/f90d2dc5-a31e-42e1-8f59-390753f89888)
+
+
+
 

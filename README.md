@@ -63,9 +63,11 @@ When setting up Auto Scaling, I created a tag (as shown below) signifying that a
 This was it! The moment of truth! To load test, I used a method that utilized Cloud 9, AWS' IDE for writing, running, and debugging code. Within Cloud9, I inputted some code that sent an ungodly amount of requests to the load balancer I had created earlier. All I had to do now was wait and hope that more instances would be created. 
 
 ![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/7b0bfeec-7907-4fd9-8058-6bc972043c2d)
+
 These were the instances I started with. 
 
 ![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/d3b5bb12-17b9-40da-838d-8ceae8f9bb3b)
+
 After a few minutes, one of my alarms in CloudWatch triggered indicating that the CPU utilization had exceeded its capacity. 
 
 ![image](https://github.com/nkommareddy/AWS-Capstone-Project/assets/133917107/6e47892d-3c17-4e68-b896-fb94e0961cd2)
